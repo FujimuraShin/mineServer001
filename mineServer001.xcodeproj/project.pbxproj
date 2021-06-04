@@ -15,6 +15,8 @@
 		7454B1F326646AA8009E46EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7454B1F126646AA8009E46EA /* LaunchScreen.storyboard */; };
 		7454B1FE26646AA8009E46EA /* mineServer001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7454B1FD26646AA8009E46EA /* mineServer001Tests.swift */; };
 		7454B20926646AA8009E46EA /* mineServer001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7454B20826646AA8009E46EA /* mineServer001UITests.swift */; };
+		7454B2222664CDD6009E46EA /* mineJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7454B2212664CDD6009E46EA /* mineJSON.swift */; };
+		74E4D7682669B00E00EBEA90 /* mineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4D7672669B00E00EBEA90 /* mineData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7454B20426646AA8009E46EA /* mineServer001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mineServer001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7454B20826646AA8009E46EA /* mineServer001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mineServer001UITests.swift; sourceTree = "<group>"; };
 		7454B20A26646AA8009E46EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7454B2212664CDD6009E46EA /* mineJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mineJSON.swift; sourceTree = "<group>"; };
+		74E4D7672669B00E00EBEA90 /* mineData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mineData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				7454B1EF26646AA8009E46EA /* Assets.xcassets */,
 				7454B1F126646AA8009E46EA /* LaunchScreen.storyboard */,
 				7454B1F426646AA8009E46EA /* Info.plist */,
+				7454B2212664CDD6009E46EA /* mineJSON.swift */,
+				74E4D7672669B00E00EBEA90 /* mineData.swift */,
 			);
 			path = mineServer001;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7454B2222664CDD6009E46EA /* mineJSON.swift in Sources */,
 				7454B1EB26646AA8009E46EA /* ViewController.swift in Sources */,
 				7454B1E726646AA8009E46EA /* AppDelegate.swift in Sources */,
 				7454B1E926646AA8009E46EA /* SceneDelegate.swift in Sources */,
+				74E4D7682669B00E00EBEA90 /* mineData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
